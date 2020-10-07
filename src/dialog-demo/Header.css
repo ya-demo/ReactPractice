@@ -1,0 +1,13 @@
+.header{
+    background: #333;
+    text-align: right;
+}
+
+.header > span{
+    display: inline-block;
+    padding: 0.5em 1em;
+}
+
+.header a {
+    color: white;
+}
