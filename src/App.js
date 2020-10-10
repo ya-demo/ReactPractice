@@ -13,7 +13,7 @@ import ListApp from './todo-list/ListApp';
 
 const App = () => {
     return (
-        <Router>
+        <Router basename="/react-practice">
             <div>
                 <nav>
                     <ul>
@@ -36,11 +36,11 @@ const App = () => {
                 </nav>
 
                 <Switch>
-                    <Route exact path="/" component={CookieApp}/>
-                    <Route path="/game" component={Game}/>
-                    <Route path="/dialog" component={DialogApp}/>
-                    <Route path="/filter" component={FilterApp}/>
-                    <Route path="/todolist" component={ListApp}/>
+                    <Route exact path="/" component={CookieApp} />
+                    <Route path="/game" component={Game} />
+                    <Route path="/dialog" component={DialogApp} />
+                    <Route path="/filter" component={FilterApp} />
+                    <Route path="/todolist" component={ListApp} />
                 </Switch>
             </div>
         </Router>
