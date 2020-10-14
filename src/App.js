@@ -24,10 +24,10 @@ const App = () => {
                             <Link to="/game">Game</Link>
                         </li>
                         <li>
-                            <Link to="/dialog">FilterPractice</Link>
+                            <Link to="/dialog">DialogDemo</Link>
                         </li>
                         <li>
-                            <Link to="/filter">DialogDemo</Link>
+                            <Link to="/filter">FilterPractice</Link>
                         </li>
                         <li>
                             <Link to="/todolist">TodoList</Link>
